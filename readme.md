@@ -1,0 +1,7 @@
+- swaync for notif
+- waybar for bar
+- cliphist for clipboard
+- dolphin for file manager
+- kitty for terminal
+- wofi for run menu and clipboard menu
+- grim and slurp for taking screenshots
