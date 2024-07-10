@@ -1,5 +1,5 @@
-- make sure that you don't have a nvim directory in your config. and if you do, rename it to something.
-- clone this bitch. 
+- make sure that you don't have a hypr directory in your config. and if you do, rename it to something.
+- clone this bitch to the config directory. 
 
 - swaync for notif
 - waybar for bar
