@@ -9,3 +9,4 @@
 - kitty for terminal
 - wofi for menus
 - grim and slurp for taking screenshots
+- https://www.gnome-look.org/p/999988 this is probably the cursor that i'm using
