@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
-
 swww img --resize fit -t none "$HOME/.config/hypr/notes/notes.png"
 while true; do
     inotifywait -e modify "$HOME/.config/hypr/notes/notes.txt"
