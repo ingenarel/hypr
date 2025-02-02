@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 declare -A menusAndCommands=(
-    ["⏻  Shutdown"]="systemctl poweroff"
-    ["  Reboot"]="systemctl reboot"
-    ["󰤄  Suspend"]="systemctl suspend"
-    ["󰿅  Logout"]="hyprctl dispatch exit 1"
-    ["󰷛  LockScreen"]="hyprlock"
+    ["⏻ Shutdown"]="systemctl poweroff"
+    [" Reboot"]="systemctl reboot"
+    ["󰤄 Suspend"]="systemctl suspend"
+    ["󰿅 Logout"]="hyprctl dispatch exit 1"
+    ["󰷛 LockScreen"]="hyprlock"
 )
 
 chosen=$(echo -e $( for item in "${!menusAndCommands[@]}"; do echo -n $item "\n"; done) |\
@@ -24,6 +24,6 @@ chosen=$(echo -e $( for item in "${!menusAndCommands[@]}"; do echo -n $item "\n"
         --outline-width 0\
         --corner-radius 15\
         --prompt-text ""|\
-        sed 's/.$//; s/ /  /'
+        sed 's/.$//'
 )
 ${menusAndCommands["$chosen"]}
