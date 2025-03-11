@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 swww img --resize fit -t none "$HOME/.config/hypr/notes/notes.png"
 while true; do

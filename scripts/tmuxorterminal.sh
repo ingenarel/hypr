@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 if [[ $(hyprctl activewindow | grep tmux) ]]; then
     tmux new-window "$2";

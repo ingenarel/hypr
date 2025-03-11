@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 if [[ $(tmux list-sessions) ]]; then
     tmux attach
 else
